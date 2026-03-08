@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="default">
+    <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics"/>
+    <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands"/>
+    <plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster"/>
+    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors"/>
+     <include>
+  <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/Ground%20Plane</uri>
+</include>
+
+<include>
+  <uri>https://fuel.gazebosim.org/1.0/openrobotics/models/Sun</uri>
+</include>
+  </world>
+</sdf>

@@ -16,3 +16,14 @@ Project Structure
     src/amr_description/launch/: Python scripts to launch the simulation.
 
     src/amr_description/worlds/: World files defining the simulation environment.
+    
+How to Run
+
+    Source the Workspace:
+    source install/setup.bash
+
+    Set Graphics Platform:
+    export QT_QPA_PLATFORM=xcb
+
+    Launch:
+    ros2 launch amr_description spawn_robot.launch.py
